@@ -8,7 +8,7 @@ python      3.8.13
 
 keras         2.7.0
 
-Full list of dependencies is listed in requirements.txt.
+Full list of dependencies is listed in requirements.txt. Datasets used in this experiment can be downloaded from github pages of original papers.
 
 Instructions for reproducing expirments (AWFdata/DFmodel for example):
 
