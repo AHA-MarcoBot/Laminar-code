@@ -260,7 +260,7 @@ for label in range(start, start+50):
     target_labels = np.zeros((batch_size, num_classes))
     target_labels[:, targetLabel] = 1
     
-    for iter in range(g_iteration + 300):
+    for iter in range(g_iteration + 200):
         with tf.GradientTape() as G2_tape, tf.GradientTape() as G3_tape:
             indices = np.random.randint(targe_data_X.shape[0], size=batch_size)
             x_targe_batch = targe_data_X[indices]
